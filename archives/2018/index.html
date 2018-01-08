@@ -59,13 +59,25 @@
   
 
   
+    
+      
+    
 
+    
+  
+
+  
+    
+      
+    
+
+    
   
 
   
     
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,700,700italic|Bellefair:300,300italic,400,400italic,700,700italic|Ubuntu Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -78,7 +90,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Hexo, 编程, 博客" />
 
 
 
@@ -94,16 +106,16 @@
 
 
 
-<meta name="description" content="A Journey to Record and Discover">
+<meta name="description" content="A Journey to Record and Discover.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="mengDTT">
 <meta property="og:url" content="https://mengdtt.github.io/archives/2018/index.html">
 <meta property="og:site_name" content="mengDTT">
-<meta property="og:description" content="A Journey to Record and Discover">
+<meta property="og:description" content="A Journey to Record and Discover.">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="mengDTT">
-<meta name="twitter:description" content="A Journey to Record and Discover">
+<meta name="twitter:description" content="A Journey to Record and Discover.">
 
 
 
@@ -112,7 +124,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Gemini',
-    sidebar: {"position":"left","display":"always","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":12,"offset_float":12,"b2t":true,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: true,
@@ -289,7 +301,7 @@
         
           
         
-        嗯..! 目前共计 1 篇日志。 继续努力。
+        嗯..! 目前共计 2 篇日志。 继续努力。
       </span>
 
       
@@ -313,9 +325,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/01/06/hello-world/" itemprop="url">
+            <a class="post-title-link" href="/2018/01/08/Hexo-personalization-setting/" itemprop="url">
               
-                <span itemprop="name">Hello World</span>
+                <span itemprop="name">Hexo 博客的个性化设置</span>
               
             </a>
         
@@ -323,7 +335,44 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-01-06T19:35:59+08:00"
+              datetime="2018-01-08T13:20:54+08:00"
+              content="2018-01-08" >
+          01-08
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2018/01/06/STL-rotate-random-access-iterator-version/" itemprop="url">
+              
+                <span itemprop="name">STL rotate的random access iterator版本</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-01-06T17:38:15+08:00"
               content="2018-01-06" >
           01-06
         </time>
@@ -366,6 +415,8 @@
 
   <aside id="sidebar" class="sidebar">
     
+      <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
@@ -379,7 +430,7 @@
                alt="mengDTT" />
           <p class="site-author-name" itemprop="name">mengDTT</p>
            
-              <p class="site-description motion-element" itemprop="description">A Journey to Record and Discover</p>
+              <p class="site-description motion-element" itemprop="description">A Journey to Record and Discover.</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -387,14 +438,32 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -441,6 +510,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -454,7 +530,7 @@
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
+  &copy;  2017 - 
   <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
@@ -501,11 +577,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
   </div>
@@ -731,6 +802,28 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
 
   
 
